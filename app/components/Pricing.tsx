@@ -22,7 +22,7 @@ export function Pricing() {
             </p>
 
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
-              0$<span className="text-[#5F7896]">/mo</span>
+              Rs.0<span className="text-[#5F7896]">/mo</span>
             </h2>
 
             <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896]">
@@ -30,24 +30,24 @@ export function Pricing() {
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Unlimited Components
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Free React/Next SourceCode
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Access to Variants 
               </li>
             </ul>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
-            Start Trial
+            Browse Components
           </button>
         </div>
 
@@ -61,7 +61,7 @@ export function Pricing() {
             </p>
 
             <h2 className="pt-4 text-2xl font-medium text-white lg:text-[32px]">
-              500$<span className="text-[#F4F8FA]">/mo</span>
+              Rs.500<span className="text-[#F4F8FA]">/mo</span>
             </h2>
 
             <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA]">
@@ -69,36 +69,30 @@ export function Pricing() {
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Custom Components
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                  Modern Web Solutions
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Performance Optimization
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
-              </li>
-              <li className="flex items-center gap-x-2">
-                <span>
-                  <Image src={Check} alt="included" />
-                </span>
-                Lorem ipsum dolor sit amet
+                SEO + Scaling
               </li>
             </ul>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
-            Get Started
+            Starting Soon!
           </button>
         </div>
 

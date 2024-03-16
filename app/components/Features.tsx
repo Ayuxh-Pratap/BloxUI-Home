@@ -18,10 +18,10 @@ export function Features() {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">
-            Sales Monitoring
+            Simplified Components
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Simplify your sales monitoring
+            Simplify your Process of Building Complex Layouts
           </h1>
           <Image
             src={Feature1}
@@ -39,19 +39,19 @@ export function Features() {
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Vaierty of Designs
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Innovative yet Simple Components
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Easy to use Code
             </li>
           </ul>
 
@@ -72,10 +72,10 @@ export function Features() {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
           <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
-            Customer Support
+            Dynamic Styling
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Get in touch with your customers
+            Get in touch with our Dynamic way if Styling
           </h1>
           <Image
             src={Feature2}
@@ -93,19 +93,19 @@ export function Features() {
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Customizable Components
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Pre-Built Variants
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Ready to go Themes
             </li>
           </ul>
 
@@ -122,14 +122,14 @@ export function Features() {
         <Image
           src={Feature3}
           alt="Feature 1 image"
-          className="hidden w-1/2 sm:block"
+          className="hidden rounded-2xl w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#EB2891] lg:text-[18px] ">
-            Growth Monitoring
+            Multi Scaling
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Monitor your sites new subscribers
+            Never Stoping Wave of Components
           </h1>
           <Image
             src={Feature3}
@@ -145,11 +145,11 @@ export function Features() {
           <div className="flex w-full gap-x-[24px] ">
             <div className="w-1/2 flex flex-col gap-y-3">
               <h3 className="text-[20px] font-medium text-[#172026]">100+</h3>
-              <p className="text-[#36485C] ">Lorem ipsum dolor sit</p>
+              <p className="text-[#36485C] ">Available Components</p>
             </div>
             <div className="w-1/2 flex flex-col gap-y-3">
               <h3 className="text-[20px] font-medium text-[#172026]">800+</h3>
-              <p className="text-[#36485C]">Conse adipiscing elit</p>
+              <p className="text-[#36485C]">OpenSource Commits</p>
             </div>
           </div>
 
