@@ -17,11 +17,9 @@ export function Hero() {
         </p>
 
         <div className="flex w-full mb-8 pt-8 justify-center gap-x-6 ">
-          <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
-            Get Started
-          </button>
+            <a className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit" href="https://uiblox.vercel.app/">Get Started</a>
           <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
-            Github Repo.
+            <a href="https://github.com/Ayuxh-Pratap/BloxUI" target="_blank">Git Repo</a>
             <span>
               <Image src={BlurArrow} alt="Learn more" />
             </span>
