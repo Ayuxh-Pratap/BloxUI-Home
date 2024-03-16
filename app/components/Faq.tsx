@@ -6,29 +6,29 @@ import Image from "next/image";
 
 const items = [
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What is BloxUI?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "BloxUI is a OpenSource , React-Tailwind Components Liberary which Provide One Stop Solution to Devlopers and Designers for their UI work . Our mission is simple: to provide developers with a seamless, one-stop solution for building stunning user interfaces.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Is BloxUI Open Source?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Open Source, Community-Driven Excellence Blox UI is proudly open source, powered by a vibrant community of developers like you. Join us in shaping the future of UI development, contribute your ideas, and collaborate on making Blox UI the go-to resource for UI excellence.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Why BloxUI! Inspiration and Idea Behind it?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "As a Developer , I not always want to install dependencies to use UI Liberaries . To tackle this problem i always want to serch for code throughout the web and now we have BLOXUI",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What can we Except from BloxUI?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Building Blocks for Effortless UI Development With Blox UI, you can expect a comprehensive collection of meticulously crafted React.js components. Each component is designed with flexibility and reusability in mind, serving as the perfect building blocks for your next project.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "How BloxUI is made?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "well...",
   },
 ];
 
