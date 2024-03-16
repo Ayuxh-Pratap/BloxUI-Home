@@ -15,7 +15,6 @@ export default function Home() {
         <Features />
         <Faq />
         <Pricing />
-        <Cta />
         <Footer />
       </div>
     </>
