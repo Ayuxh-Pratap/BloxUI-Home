@@ -5,7 +5,7 @@ import HeroImage from "../../public/assets/Laptop.png";
 
 export function Hero() {
   return (
-    <div className="pt-4 lg:pt-10">
+    <div className="pt-16 lg:pt-[10rem]">
       <div className="px-[20px] lg:px-[280px]">
         <h1 className="text-center text-[32px] leading-[40px] font-bold text-[#172026] lg:text-[54px] lg:leading-[72px]">
         Unleash Creativity with Blox UI <br /><span className="hidden lg:block">Where Innovation Meets Simplicity</span>
