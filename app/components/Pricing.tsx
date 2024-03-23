@@ -108,7 +108,7 @@ export function Pricing() {
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
 
             <p className="pt-4 text-[16px] text-[#36485C]">
-            With our custom subscription, you gain the ability to request custom components tailored to your project's unique requirements.
+            With our custom subscription, you gain the ability to request custom components tailored to your projects unique requirements.
             </p>
             <p className="pt-2 text-[16px] text-[#36485C]">
             Need a specialized chart, or a custom data visualization? Our team of skilled developers is here to bring your ideas to life.

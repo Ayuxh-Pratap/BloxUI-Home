@@ -13,7 +13,7 @@ const items = [
   {
     question: "How do I get started with Blox UI?",
     answer:
-      "Getting started with Blox UI is simple! You can install the library via npm or yarn by following our easy-to-use installation guide in the documentation. Once installed, explore our extensive component library, utilize our ready-to-use templates, and dive into our clear and concise documentation for seamless integration into your projects.",
+      "Getting started with Blox UI is simple! You can install the library via following our easy-to-use installation guide in the documentation. Once installed, explore our extensive component library, utilize our ready-to-use templates, and dive into our clear and concise documentation for seamless integration into your projects.",
   },
   {
     question: "Are Blox UI components customizable?",
@@ -33,12 +33,12 @@ const items = [
   {
     question: "How can I contribute to Blox UI??",
     answer:
-      "We welcome contributions from the community! Whether it's reporting bugs, suggesting new features, or submitting pull requests, your input helps make Blox UI even better. Visit our GitHub repository to learn more about contributing guidelines and how you can get involved."
+      "We welcome contributions from the community! Whether its reporting bugs, suggesting new features, or submitting pull requests, your input helps make Blox UI even better. Visit our GitHub repository to learn more about contributing guidelines and how you can get involved."
   },
   {
     question: "Still have questions?",
     answer:
-      "If you have any other questions or need further assistance, feel free to reach out to our friendly support team. We're here to help you make the most out of Blox UI and ensure your UI development journey is a smooth and enjoyable one."
+      "If you have any other questions or need further assistance, feel free to reach out to our friendly support team. We are here to help you make the most out of Blox UI and ensure your UI development journey is a smooth and enjoyable one."
   },
 ];
 

@@ -81,7 +81,7 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-          Our library offers a versatile range of React components, each customizable to suit your project's unique aesthetic. Dive into a world of effortless styling with easy-to-use customization options.
+          Our library offers a versatile range of React components, each customizable to suit your projects unique aesthetic. Dive into a world of effortless styling with easy-to-use customization options.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">

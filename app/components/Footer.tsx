@@ -20,7 +20,7 @@ export function Footer() {
       id: "#Features"
     },
     {
-      name: "FAQ's",
+      name: "FAQs",
       id: "#FAQ"
     },
     {
