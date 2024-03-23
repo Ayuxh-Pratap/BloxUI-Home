@@ -3,7 +3,7 @@ import Check from "../../public/assets/check.svg";
 
 export function Pricing() {
   return (
-    <div className="py-[48px] lg:py-[60px]">
+    <div id="Pricing" className="py-[48px] lg:py-[60px]">
       <h1 className="text-[#172026] text-center font-medium  text-2xl lg:text-[42px]">
         Flexible plans for you
       </h1>
@@ -15,10 +15,10 @@ export function Pricing() {
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
-              Free Trial
+              Free Use
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
-              Perfect for testing the waters
+              Perfect for Just Using Components
             </p>
 
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
@@ -52,7 +52,7 @@ export function Pricing() {
         </div>
 
         <div className="w-full rounded-[8px] bg-[#4328EB] p-6 flex flex-col">
-          <div>
+          <div className="w-full rounded-[8px] p-6 flex flex-col lg:justify-between">
             <h3 className="font-medium text-white text-[18px] lg:text-xl">
               Business
             </h3>
@@ -108,13 +108,10 @@ export function Pricing() {
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
 
             <p className="pt-4 text-[16px] text-[#36485C]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+            With our custom subscription, you gain the ability to request custom components tailored to your project's unique requirements.
             </p>
             <p className="pt-2 text-[16px] text-[#36485C]">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit.
+            Need a specialized chart, or a custom data visualization? Our team of skilled developers is here to bring your ideas to life.
             </p>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">

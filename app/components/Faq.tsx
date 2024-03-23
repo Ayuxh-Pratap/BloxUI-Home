@@ -8,33 +8,43 @@ const items = [
   {
     question: "What is BloxUI?",
     answer:
-      "BloxUI is a OpenSource , React-Tailwind Components Liberary which Provide One Stop Solution to Devlopers and Designers for their UI work . Our mission is simple: to provide developers with a seamless, one-stop solution for building stunning user interfaces.",
+      "Blox UI is a comprehensive open-source React.js UI components library designed to simplify and streamline the process of building stunning user interfaces. With a rich collection of components, customizable styles, and responsive design features, Blox UI empowers developers to create complex layouts with ease.",
   },
   {
-    question: "Is BloxUI Open Source?",
+    question: "How do I get started with Blox UI?",
     answer:
-      "Open Source, Community-Driven Excellence Blox UI is proudly open source, powered by a vibrant community of developers like you. Join us in shaping the future of UI development, contribute your ideas, and collaborate on making Blox UI the go-to resource for UI excellence.",
+      "Getting started with Blox UI is simple! You can install the library via npm or yarn by following our easy-to-use installation guide in the documentation. Once installed, explore our extensive component library, utilize our ready-to-use templates, and dive into our clear and concise documentation for seamless integration into your projects.",
   },
   {
-    question: "Why BloxUI! Inspiration and Idea Behind it?",
+    question: "Are Blox UI components customizable?",
     answer:
-      "As a Developer , I not always want to install dependencies to use UI Liberaries . To tackle this problem i always want to serch for code throughout the web and now we have BLOXUI",
+      "Yes! Blox UI components are highly customizable to match your project's branding and design requirements. Easily adjust colors, sizes, and styles using our intuitive props and styling options. Whether you need a quick tweak or a complete overhaul, Blox UI gives you the flexibility to create interfaces that stand out.",
   },
   {
-    question: "What can we Except from BloxUI?",
+    question: "Is Blox UI suitable for beginners?",
     answer:
-      "Building Blocks for Effortless UI Development With Blox UI, you can expect a comprehensive collection of meticulously crafted React.js components. Each component is designed with flexibility and reusability in mind, serving as the perfect building blocks for your next project.",
+      "Absolutely! Blox UI is designed to cater to developers of all levels, from beginners to seasoned professionals. With its easy-to-use components, clear documentation, and responsive support, Blox UI provides a friendly and accessible environment for developers to create beautiful interfaces without a steep learning curve.",
   },
   {
-    question: "How BloxUI is made?",
+    question: "How often are updates released for Blox UI?",
     answer:
-      "well...",
+      "We are committed to providing regular updates and enhancements to the Blox UI library. Our team is constantly working to add new components, improve existing features, and address any issues reported by our community. Stay tuned to our GitHub repository for the latest updates."
+  },
+  {
+    question: "How can I contribute to Blox UI??",
+    answer:
+      "We welcome contributions from the community! Whether it's reporting bugs, suggesting new features, or submitting pull requests, your input helps make Blox UI even better. Visit our GitHub repository to learn more about contributing guidelines and how you can get involved."
+  },
+  {
+    question: "Still have questions?",
+    answer:
+      "If you have any other questions or need further assistance, feel free to reach out to our friendly support team. We're here to help you make the most out of Blox UI and ensure your UI development journey is a smooth and enjoyable one."
   },
 ];
 
 export function Faq() {
   return (
-    <div className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6">
+    <div id="FAQ" className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6">
       <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]">
         <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base">
           Frequently Asked Questions
@@ -43,8 +53,7 @@ export function Faq() {
           Lets clarify some of your questions
         </h1>
         <p className="text-[#36485C] pb-[24px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Here , we answered some of the questions you are likely to ask about BloxUI .
         </p>
       </div>
 

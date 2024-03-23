@@ -4,10 +4,22 @@ import User from "../../public/assets/User.svg";
 import Menu from "../../public/assets/Menu.svg";
 
 const navLinks = [
-  { name: "Features" },
-  { name: "Pricing" },
-  { name: "Enterprise" },
-  { name: "Careers" },
+  {
+    name: "Home",
+    id: "#"
+  },
+  {
+    name: "Features",
+    id: "#Features"
+  },
+  {
+    name: "FAQ's",
+    id: "#FAQ"
+  },
+  {
+    name: "Pricing",
+    id: "#Pricing"
+  },
 ];
 
 export function Navbar() {
@@ -18,14 +30,14 @@ export function Navbar() {
       </div>
 
       <div className="flex gap-x-5">
-      <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
+        <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
           {navLinks.map((item, index) => (
-            <p className="text-[#36485C] font-medium" key={index}>
+            <a href={item.id} className="text-[#36485C] font-medium" key={index}>
               {item.name}
-            </p>
+            </a>
           ))}
         </div>
-        <Image src={Menu} alt="Menu Button" className="lg:hidden" />
+        <Image src={User} alt="Menu Button" className="lg:hidden" />
       </div>
     </nav>
   );

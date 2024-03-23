@@ -9,7 +9,7 @@ import pinkButton from "../../public/assets/pink-button.svg";
 
 export function Features() {
   return (
-    <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] ">
+    <div id="Features" className="flex flex-col gap-y-[56px] py-[120px] lg:gap-y-[80px] ">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
         <Image
           src={Feature1}
@@ -29,9 +29,7 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+          Our comprehensive library of meticulously crafted React components, coupled with a powerful grid system, allows you to effortlessly create sophisticated designs.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -56,7 +54,7 @@ export function Features() {
           </ul>
 
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#0085FF] lg:text-[18px]">
-            Learn More{" "}
+            <a href="https://uiblox.vercel.app/">Learn More{" "}</a>
             <span>
               <Image src={bluebutton} alt="Learn more" />
             </span>
@@ -83,9 +81,7 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+          Our library offers a versatile range of React components, each customizable to suit your project's unique aesthetic. Dive into a world of effortless styling with easy-to-use customization options.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -110,7 +106,7 @@ export function Features() {
           </ul>
 
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#00A424] lg:text-[18px]">
-            Learn More{" "}
+          <a href="https://uiblox.vercel.app/">Learn More{" "}</a>
             <span>
               <Image src={greenButton} alt="Learn more" />
             </span>
@@ -137,24 +133,22 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+          Our library is a dynamic ecosystem of React components that grows continuously, ensuring you always have access to the latest tools for crafting remarkable user interfaces.
           </p>
 
           <div className="flex w-full gap-x-[24px] ">
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#172026]">100+</h3>
+              <h3 className="text-[20px] font-medium text-[#172026]">00+</h3>
               <p className="text-[#36485C] ">Available Components</p>
             </div>
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#172026]">800+</h3>
+              <h3 className="text-[20px] font-medium text-[#172026]">00+</h3>
               <p className="text-[#36485C]">OpenSource Commits</p>
             </div>
           </div>
 
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#EB2891] lg:text-[18px]">
-            Learn More{" "}
+          <a href="https://uiblox.vercel.app/">Learn More{" "}</a>
             <span>
               <Image src={pinkButton} alt="Learn more" />
             </span>
